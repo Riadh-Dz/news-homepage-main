@@ -184,6 +184,7 @@ nav a:hover {
 }
 
 main {
+    width: 100%;
     display: grid;
     grid-template-areas:
         "main-a main-a sidebar-a"
@@ -341,6 +342,7 @@ h2 a:hover {
             " artical-3";
         grid-template-columns: 1fr;
         gap: 3rem;
+        gri
     }
 
     .main-artical-image {
@@ -348,6 +350,7 @@ h2 a:hover {
     }
 
     .main-artical-image-m {
+        width: 100%;
         display: inline;
         grid-area: m-image;
     }
